@@ -1,0 +1,28 @@
+.wrapper{
+    max-width: 880px;
+    max-height: 580px;
+    font: 100% system-ui;
+    
+}
+.calender{
+   display: grid;
+   grid-template-columns:  repeat(7, 1fr);
+}
+.first_day{
+    grid-column-start: 3;
+}
+.day_name{
+    background: #eee;
+}
+h1{
+    text-align: center;
+}
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    padding: 2px;
+}
